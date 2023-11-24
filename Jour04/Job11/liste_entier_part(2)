@@ -1,0 +1,17 @@
+# La liste d'entiers L est créée avec les valeurs données.
+# La liste d'origine est affichée.
+# Une compréhension de liste est utilisée pour créer une nouvelle liste où chaque élément est augmenté de 1.
+# Cela est réalisé avec l'expression (x + 1) for (x in L).
+# La liste modifiée est affichée
+
+# Créer la liste d'entiers L
+L = [7, 11, 42, 39, 2]
+
+# Afficher la liste d'origine
+print("Liste Original :", L)
+
+# Augmenter de 1 la valeur de chaque élément de la liste
+L = [x + 1 for x in L]
+
+# Afficher la liste falsifié.
+print("Liste falsifié :", L)
